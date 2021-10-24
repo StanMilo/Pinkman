@@ -34,18 +34,6 @@ section.intro > div.intro-bottom {
   height: 75px;
 }
 
-section.intro > div.intro-content > h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 5vh;
-  font-weight: 100;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
 section.intro > div.intro-content > h1 > span {
   display: inline-block;
   background: rgba(218,51,118,1);
