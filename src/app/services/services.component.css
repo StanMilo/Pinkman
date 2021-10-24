@@ -1,0 +1,49 @@
+section.services h2, section.careers h2, section.contacts h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 25px 0;
+  padding: 0;
+  text-align: center;
+}
+
+section.services h2 > span, section.careers h2 > span, section.contacts h2 > span {
+  display: block;
+  color: rgba(0,0,0,0.5);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+section.services, section.careers {
+  -moz-box-shadow: 0 7px 5px -5px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 7px 5px -5px rgb(0 0 0 / 10%);
+  box-shadow: 0 7px 5px -5px rgb(0 0 0 / 10%);
+}
+
+section.services, section.careers, section.contacts {
+  margin: 0 0 25px 0;
+}
+
+.material-icons{
+  color: rgba(218,51,118,1);
+    display: block;
+    font-size: 50px;
+    padding: 0;
+    margin: 0 auto 20px;
+}
+div.services-item > h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.serv {
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,72 @@
+section.intro > div.intro-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0));
+  height: 75px;
+}
+
+.intro {
+  background: url("https://pinkman.online/images/bg.png") repeat;
+  height: 0;
+  padding-bottom: 42.86%;
+  position: relative;
+  width: 100%;
+}
+
+section.intro > div.intro-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+section.intro > div.intro-bottom {
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+  height: 75px;
+}
+
+section.intro > div.intro-content > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vh;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+section.intro > div.intro-content > h1 > span {
+  display: inline-block;
+  background: rgba(218,51,118,1);
+  border-radius: 50%;
+  margin: 0 0 0 3px;
+  height: 7px;
+  width: 7px;
+}
+
+section.intro > div.intro-content > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vh;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.intro-content > h1{
+  line-height: 100%;
+}

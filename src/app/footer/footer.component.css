@@ -1,0 +1,53 @@
+footer {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+footer > button {
+  display: block;
+  color: rgba(0,0,0,0.25);
+  background: transparent;
+  border: 0;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+footer > p {
+  color: rgba(0,0,0,0.25);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer > button.active, footer > button:hover {
+  color: rgba(218,51,118,1);
+  outline: none;
+  text-decoration: none;
+}
+
+.hideDiv {
+  display: none;
+}
+
+div.impressum {
+  background: rgba(255,255,255,1);
+  padding: 10px 15px 0 15px;
+  text-align: center;
+}
+
+div.impressum > p > span {
+  display: block;
+  color: rgba(0,0,0,1);
+  font-weight: 700;
+}
+
+div.impressum > p {
+  border-bottom: 1px dotted rgba(0,0,0,0.05);
+  border-left: 1px dotted rgba(0,0,0,0.05);
+  border-right: 1px dotted rgba(0,0,0,0.05);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding: 7px 0;
+}
